@@ -1,0 +1,143 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\cekan\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\cekan\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.9.7 (Oracle Corporation Java 1.8.0_202)
+[debug]       Load.loadUnit: plugins took 137.7194ms
+[debug]       Load.loadUnit: defsScala took 0.2905ms
+[debug] [Loading] Scanning directory C:\Users\cekan\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\cekan\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 22.538 ms
+[debug]           Load.resolveProject(global-plugins) took 43.9117ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\cekan\.sbt\1.0\plugins, plugins: List(<none>))) took 226.8538ms
+[debug] [Loading] Done in C:\Users\cekan\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 248.1002ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.2196ms
+[debug]     Load.loadUnit(file:/C:/Users/cekan/.sbt/1.0/plugins/, ...) took 393.2095ms
+[debug]   Load.apply: load took 584.7949ms
+[debug]   Load.apply: resolveProjects took 6.5427ms
+[debug]   Load.apply: finalTransforms took 53.2421ms
+[debug]   Load.apply: config.delegates took 10.0632ms
+[debug]   Load.apply: Def.make(settings)... took 442.4335ms
+[debug]   Load.apply: structureIndex took 107.9042ms
+[debug]   Load.apply: mkStreams took 2.1351ms
+[info] loading global plugins from C:\Users\cekan\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 2773.8269ms
+[debug]           Load.loadUnit: plugins took 25.2609ms
+[debug]           Load.loadUnit: defsScala took 0.0033ms
+[debug] [Loading] Scanning directory C:\Users\cekan\project\CLT\micro_batch_processor\project
+[debug]             Load.loadUnit: mkEval took 11.8132ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\cekan\project\CLT\micro_batch_processor\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.4325 ms
+[info] loading settings for project micro_batch_processor-build from idea.sbt ...
+[debug]               Load.resolveProject(micro_batch_processor-build) took 10.5734ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id micro_batch_processor-build, base: C:\Users\cekan\project\CLT\micro_batch_processor\project, plugins: List(<none>))) took 13.6942ms
+[debug] [Loading] Done in C:\Users\cekan\project\CLT\micro_batch_processor\project, returning: (micro_batch_processor-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 2335.4775ms
+[debug]           Load.loadUnit: cleanEvalClasses took 5.7465ms
+[debug]         Load.loadUnit(file:/C:/Users/cekan/project/CLT/micro_batch_processor/project/, ...) took 2367.785ms
+[debug]       Load.apply: load took 2369.1899ms
+[debug]       Load.apply: resolveProjects took 0.1113ms
+[debug]       Load.apply: finalTransforms took 8.5279ms
+[debug]       Load.apply: config.delegates took 0.5421ms
+[debug]       Load.apply: Def.make(settings)... took 95.0648ms
+[debug]       Load.apply: structureIndex took 28.5125ms
+[debug]       Load.apply: mkStreams took 0.0022ms
+[info] loading project definition from C:\Users\cekan\project\CLT\micro_batch_processor\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[debug]     Load.loadUnit: plugins took 4160.7545ms
+[debug]     Load.loadUnit: defsScala took 0.0041ms
+[debug] [Loading] Scanning directory C:\Users\cekan\project\CLT\micro_batch_processor
+[debug]       Load.loadUnit: mkEval took 0.3811ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 2.1412 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 32.7453ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\cekan\project\CLT\micro_batch_processor, plugins: List(<none>))) took 36.9818ms
+[debug] [Loading] Done in C:\Users\cekan\project\CLT\micro_batch_processor, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 2491.8779ms
+[debug]     Load.loadUnit: cleanEvalClasses took 45.9315ms
+[debug]   Load.loadUnit(file:/C:/Users/cekan/project/CLT/micro_batch_processor/, ...) took 6699.5357ms
+[debug] Load.apply: load took 6701.6767ms
+[debug] Load.apply: resolveProjects took 0.2818ms
+[debug] Load.apply: finalTransforms took 26.8383ms
+[debug] Load.apply: config.delegates took 0.3819ms
+[debug] Load.apply: Def.make(settings)... took 203.6132ms
+[debug] Load.apply: structureIndex took 27.3344ms
+[debug] Load.apply: mkStreams took 0.0036ms
+[info] set current project to micro_batch_processor (in build file:/C:/Users/cekan/project/CLT/micro_batch_processor/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 50823 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 50823, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to micro_batch_processor (in build file:/C:/Users/cekan/project/CLT/micro_batch_processor/)
+[debug] > Exec(idea-shell, None, None)

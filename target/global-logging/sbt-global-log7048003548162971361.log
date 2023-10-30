@@ -1,0 +1,9 @@
+[debug] > Exec(package, None, None)
+[debug] Evaluating tasks: Compile / package
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\cekan\project\CLT\micro_batch_processor\target\scala-2.12\classes ...
+[info] Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.13. Compiling...
+[info]   Compilation completed in 16.372s.
+[info] done compiling
+[success] Total time: 23 s, completed Oct 25, 2023 11:32:52 PM
+[debug] > Exec(idea-shell, None, None)

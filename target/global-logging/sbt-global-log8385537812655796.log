@@ -1,0 +1,8 @@
+[debug] > Exec(package, None, None)
+[debug] Evaluating tasks: Compile / package
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\cekan\project\CLT\micro_batch_processor\target\scala-2.12\classes ...
+[info] done compiling
+[debug] Forcing garbage collection...
+[success] Total time: 7 s, completed Oct 27, 2023 6:12:11 PM
+[debug] > Exec(idea-shell, None, None)
